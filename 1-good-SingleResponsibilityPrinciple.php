@@ -34,7 +34,7 @@ class ActivityLogger {
 }
 
 // Usage
-$userManager = new UserManager('johndoe', 'john@example.com');
+$userManager = new UserManager('Shivang Gupta', 'shivang.gupta@entrata.com');
 $activityLogger = new ActivityLogger();
 $activityLogger->logActivity($userManager, 'Logged in successfully');
 
